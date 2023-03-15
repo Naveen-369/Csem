@@ -98,8 +98,11 @@ int displ(){
 }
 
 int dele( int a)/*This is position not value*/{
-    if (pointer <0){
+    if (pointer <0 ){
         printf("\tNull list cannot undergo this function ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !");
+    }
+    else if (a>pointer){
+    printf("\t Invalid adddress entered  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ")
     }
     else{
     for(int i =a;i<=pointer;i++){
