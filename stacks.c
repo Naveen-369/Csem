@@ -55,4 +55,3 @@ void display(){
         printf("\t%d ",stack[i]);
     }
 }//New function for displaying the entire stack elements
-n udfbuvoebouvaouerbouaejn
